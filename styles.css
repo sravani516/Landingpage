@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    min-height:100vh;
+}
+.top{
+    width: 100%;
+    margin-left: 30px;
+    min-height:60vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230315/pngtree-suitcase-beach-leisure-vacation-background-image_1948334.jpg");
+background-size: cover;
+background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color:white;
+    bottom: 5%;
+}
+.text h1{
+    
+    font-size: 50px;
+}
+.text .image{
+    background-image: url("https://img.freepik.com/free-photo/view-graphic-3d-travel-luggage_23-2150849209.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width:220px;  
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.rtext p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.icons{
+    font-size: 50px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width:30%;
+     min-height: inherit;
+   
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230317/pngtree-travel-camera-background-image_1949182.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 40px;
+    }
+.bottom .b1 p{
+    text-align: center;
+    padding: 30px;
+    color:rgb(244, 35, 35);
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230315/pngtree-travel-around-the-world-miniature-3d-background-image_1948328.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    color:rgba(9, 10, 9, 0.922);
+    padding: 30px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image:url("https://st4.depositphotos.com/15208558/26882/i/450/depositphotos_268828314-stock-illustration-creative-background-red-suitcase-sneakers.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.b3{
+width: 40%;
+min-height: inherit;
+background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-travel-around-the-world-background-image_2169513.jpg");
+background-size: cover;
+background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width:50%;
+    height:100%;
+    padding: 4vh 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+    color: white;
+    font-weight: bold;
+}
+@media(max-width:500px)
+{
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height:200px;
+        width: 120px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+
+    }
+}
